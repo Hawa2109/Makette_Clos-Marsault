@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+body{
+    background-color: rgb(249, 233, 206);   
+}
+/* PARTIE FOOTER  */
+/* coleur de font du footer  */
+footer{
+background-color: rgba(57, 51, 11, 0.945);
+}
