@@ -1,8 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
-body{
-    background-color: rgb(249, 233, 206);   
+header{
+    background-image: url(../IMAGE/image-principale.JPG);
+    height: 900px;
+    width: 100%;
+    
 }
+
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+/* la partie nav */
+nav ul {
+   display: flex;
+  justify-content: space-between; 
+
+}
+li {
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.titre {
+    color: whitesmoke;
+    text-align: center;
+    
+}
+div h1 {
+    font-weight: bold;
+   font-size: 95px;
+}
+div h2 {
+   
+}
+/* LES SECTIONS */
+section
 /* PARTIE FOOTER  */
+
 /* coleur de font du footer  */
 footer{
 background-color: rgba(57, 51, 11, 0.945);
