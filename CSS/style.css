@@ -1,48 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
-header{
-    background-image: url(../IMAGE/image-principale.JPG);
-    height: 900px;
-    width: 100%;
-    
-}
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 /* la partie nav */
+nav {
+  width: 100%;
+}
 nav ul {
-   display: flex;
-  justify-content: space-between; 
-
+  display: flex;
+  justify-content: space-between;
 }
 li {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
-.titre {
-    color: whitesmoke;
-    text-align: center;
-    
+.logo {
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+#Img_header {
+  background-image: url(../IMAGE/image-principale.JPG);
+  height: 900px;
+  width: 100%;
+}
+#Img_header {
+  color: whitesmoke;
+  text-align: center;
 }
 div h1 {
-    font-weight: bold;
-   font-size: 95px;
+  font-weight: bold;
+  font-size: 95px;
 }
-div h2 {
-   
-}
+
 /* LES SECTIONS */
 section
 /* PARTIE FOOTER  */
 
 /* coleur de font du footer  */
-footer{
-background-color: rgba(57, 51, 11, 0.945);
+footer {
+  background-color: rgba(57, 51, 11, 0.945);
 }
