@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Advent Pro", sans-serif;
+}
 
 #logo {
   font-weight: bold;
@@ -168,8 +171,29 @@ footer {
   background-color: rgba(57, 51, 11, 0.945);
   color: #fffae1;
 }
+/* pour le formulaire */
 footer form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
+}
+.Icone_copy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icones i {
+  margin: 10px;
+  margin-top: 0;
+}
+/* Pour le deuxieme trait */
+div#trait2 {
+  height: 0.1px;
+  width: 70%;
+  background-color: #fffae1;
+  margin: 30px auto;
+}
+div.copy {
+  font-size: 15px;
+  margin-right: 590px;
 }
