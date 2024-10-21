@@ -1,154 +1,175 @@
-
-*{
-      margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#logo{
-font-weight: bold;
+
+#logo {
+  font-weight: bold;
+  font-size: 1.7em;
+  font-family: "Dancing Script", cursive;
 }
 
 header ul {
-    display: flex;
-    width: 350px;
-    /* width: 100%; */
-    justify-content: space-between;
+  display: flex;
+  width: 350px;
+  /* width: 100%; */
+  justify-content: space-between;
 }
 header ul li {
-    /* pour enlever les puces */
-    list-style-type: none;
-    font-size: 1.2em; 
-    
+  /* pour enlever les puces */
+  list-style-type: none;
+  font-size: 1.2em;
 }
 header a {
-    /* pour enlever le soulignement */
-    text-decoration: none;
-    color: black;
-    display: block; 
-     padding: 18px 16px; 
-     
+  /* pour enlever le soulignement */
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 18px 16px;
 }
 header nav {
- position: fixed;
-    /* overflow: hidden; */
-    width: 100%;
-    /* height: 30px; */
-   /* border: 2px solid red;  */
-    background-color: #c4edf8;
-    display: flex;
-    justify-content: space-between;
-    padding: 18 20px;
-    opacity: 0.9;
+  position: fixed;
+  /* overflow: hidden; */
+  width: 100%;
+  /* height: 30px; */
+  /* border: 2px solid red;  */
+  background-color: #c4edf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 18 20px;
+  opacity: 0.9;
 }
 /* ********* l'image principale ***** */
 #ImagePrincipale {
-    /* background-image: url(../IMAGE/image-principale.JPG); */
-   background: url(../IMAGE/image-principale.JPG) no-repeat fixed 50% 50% ;
-   background-size: cover; /* pour couvrir toute la place */
-   height: 799px;
-   padding-top: 60px;
+  /* background-image: url(../IMAGE/image-principale.JPG); */
+  background: url(../IMAGE/image-principale.JPG) no-repeat fixed 50% 50%;
+  background-size: cover; /* pour couvrir toute la place */
+  height: 799px;
+  padding-top: 60px;
 }
-h1, h3 {
-    text-align: center;
-    color: antiquewhite;
-    text-shadow: 1px 3px 2px black;
+h1,
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 1px 3px 2px black;
 }
-h1{
-    font-size: 6em;
+h1 {
+  font-size: 6em;
 }
 h3 {
-    font-size: 3em;
+  font-size: 3em;
 }
 #premierTrait {
-    height: 1px;
-    width: 25%;
-    background-color: #fffae1;
-    margin: 30px auto;
-    box-shadow: 1px 3px 2px black;
-
+  height: 1px;
+  width: 25%;
+  background-color: #fffae1;
+  margin: 30px auto;
+  box-shadow: 1px 3px 2px black;
 }
 /* ****** PRESENTATION ******* */
 h2 {
-    text-transform: uppercase; /* pour mettre en majuscule */
-    text-align: center;
-    padding-top: 30px;
-    /* padding-bottom: 30px; */
+  text-transform: uppercase; /* pour mettre en majuscule */
+  text-align: center;
+  padding-top: 30px;
+  /* padding-bottom: 30px; */
 }
-section#presentations{
-    background-color: #c4edf8;
-    padding: 10px 0 100px 0;
+section#presentations {
+  background-color: #c4edf8;
+  padding: 10px 0 100px 0;
 }
-#texteIntro{
-    padding: 0 20%;
+#texteIntro {
+  padding: 0 20%;
 }
 #texteIntro p {
-    letter-spacing: 0.5px;
-    line-height: 1.6;
-    padding-top: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
-div#prestation{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* border: 2px solid red; */
-    padding: 30px 10%;
+div#prestation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  padding: 30px 10%;
 }
 /* la div avec les images de la section */
-.imagesPrestations h4{
-text-align: center;
-margin: 15px;
-font-weight: 300;
-font-size: 1.8em;
+.imagesPrestations h4 {
+  text-align: center;
+  margin: 15px;
+  font-weight: 300;
+  font-size: 1.8em;
 }
-.imagesPrestations img{
-    border-radius: 10px;
-    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
-  transition: 0.6s ease-in-out;  
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+  transition: 0.6s ease-in-out;
 }
 
-.imagesPrestations img:hover{
-    opacity: 0.5;
-    transform: scale(1.05);  
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
 }
 /* la partie decouverte */
 #tourisme {
-    display: flex;
-    flex-direction: column;
-   align-items: center;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .box {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 
-.box .lieu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.box .lieu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 60px 300px 50px 0;
 }
-.box .lieu_inverse{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-.box .lieu p{
-    background-color: rgb(19, 224, 19);
-    width: 190px;
-    height: 40px;
-    box-shadow: 5px 5px 3px 0 black;
+.box .lieu_inverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .box .lieu p {
-    background-color: rgb(19, 224, 19);
-    width: 190px;
-    height: 40px;
-    box-shadow: 5px 5px 3px 0 black;
-    transform: translate(-50px,-50px);
+  background-color: rgb(19, 224, 19);
+  width: 190px;
+  height: 40px;
+  box-shadow: 5px 5px 3px 0 black;
+  transform: translate(-50px, -50px);
+  text-align: center;
+  margin-top: 20px;
 }
 .box .lieu_inverse p {
-   background-color: rgb(47, 212, 231);
-    width: 190px;
-    height: 40px;
-    box-shadow: 5px 5px 3px 0 black; 
-     transform: translate(50px,-50px);
+  background-color: rgb(47, 212, 231);
+  width: 190px;
+  height: 40px;
+  box-shadow: -4px 5px 3px 0 black;
+  transform: translate(50px, -50px);
+  text-align: center;
+}
+.box img {
+  box-shadow: -1px 2px 20px 3px black;
+  border-radius: 5px;
+  transition: 0.6s ease-in-out;
+}
+
+.box img:hover {
+  /* opacity: 0.9; */
+  transform: scale(1.05);
+}
+/* La partie footer */
+footer {
+  background-color: rgba(57, 51, 11, 0.945);
+  color: #fffae1;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
