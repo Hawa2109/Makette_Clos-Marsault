@@ -143,11 +143,12 @@ font-size: 1.8em;
     width: 190px;
     height: 40px;
     box-shadow: 5px 5px 3px 0 black;
-    transform: translate(-50px,50px);
+    transform: translate(-50px,-50px);
 }
 .box .lieu_inverse p {
    background-color: rgb(47, 212, 231);
     width: 190px;
     height: 40px;
     box-shadow: 5px 5px 3px 0 black; 
+     transform: translate(50px,-50px);
 }
