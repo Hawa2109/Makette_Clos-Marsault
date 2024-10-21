@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* la partie nav */
+header nav {
+  width: 100%;
+  background-color: #fffae1;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+#Img_header {
+  background-image: url(../IMAGE/image-principale.JPG);
+  height: 900px;
+  width: 100%;
+}
+#Img_header {
+  color: whitesmoke;
+  text-align: center;
+}
+div h1 {
+  font-weight: bold;
+  font-size: 95px;
+}
+
+/* LES SECTIONS */
+section
+/* PARTIE FOOTER  */
+
+/* coleur de font du footer  */
+footer {
+  background-color: rgba(57, 51, 11, 0.945);
+}
