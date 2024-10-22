@@ -43,6 +43,7 @@ header nav {
   justify-content: space-between;
   padding: 18 20px;
   opacity: 0.9;
+  z-index: 1;
 }
 /* ********* l'image principale ***** */
 #ImagePrincipale {
@@ -60,6 +61,7 @@ h3 {
 }
 h1 {
   font-size: 6em;
+  font-family: "Dancing Script", cursive;
 }
 h3 {
   font-size: 3em;
@@ -121,6 +123,11 @@ div#prestation {
   flex-direction: column;
   align-items: center;
 }
+#tourisme p {
+  display: flex;
+  justify-content: center;
+
+}
 .box {
   display: flex;
   flex-direction: column;
@@ -166,10 +173,13 @@ div#prestation {
   /* opacity: 0.9; */
   transform: scale(1.05);
 }
-/* La partie footer */
+/* La partie FOOTER */
 footer {
   background-color: rgba(57, 51, 11, 0.945);
   color: #fffae1;
+}
+footer h2{
+  font-size: 3.5em;
 }
 /* pour le formulaire */
 footer form {
@@ -178,6 +188,20 @@ footer form {
   align-items: center;
   margin-top: 50px;
 }
+input, textarea {
+  width: 25%;
+   padding: 12px 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button{
+   width: 25%;
+  padding:  15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fffae1;
+}
+/* pour les icones */
 .Icone_copy {
   display: flex;
   justify-content: space-evenly;
